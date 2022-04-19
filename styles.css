@@ -1,0 +1,20 @@
+/*Reset and Variables*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --first-color: #2196f3;
+    --second-color: #e63946;
+}
+
+/* Footer */
+#footer {
+    background-color: var(--first-color);
+}
+
+.ancore-footer {
+    color: #fff;
+    text-decoration: none;
+}
