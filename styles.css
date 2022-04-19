@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@800&display=swap');
 /*Reset and Variables*/
 * {
     margin: 0;
@@ -5,14 +7,46 @@
     box-sizing: border-box;
 }
 :root {
-    --first-color: #2196f3;
+    --first-color: #F11318;
     --second-color: #e63946;
+}
+
+.navbar {
+    font-family: "Comfortaa";
 }
 /* Body Content */
 #main .carousel-inner img {
     height: 85vh;
     object-fit: cover;
     filter: grayscale(80%);
+}
+/* Carousel */
+#carousel {
+    position: relative;
+}
+
+#carousel .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgb(0, 0, 0, 0.5%);
+    color: #fff;
+}
+
+#carousel .overlay .container,
+#carousel .overlay .row {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#carousel .overlay .container h2 {
+    color: var(--first-color);
+    font-family: "Montserrat Alternates";
+    font-size: 40px;
 }
 
 /* Footer */
@@ -23,4 +57,5 @@
 .ancore-footer {
     color: #fff;
     text-decoration: none;
+    font-family: "Comfortaa";
 }
