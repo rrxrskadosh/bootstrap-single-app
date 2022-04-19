@@ -9,11 +9,11 @@
     --second-color: #e63946;
 }
 /* Body Content */
-.content {
-    height: calc( 100% - 100px );
-    padding: 2em;
-    overflow-y: scroll;
-  }
+#main .carousel-inner img {
+    height: 85vh;
+    object-fit: cover;
+    filter: grayscale(80%);
+}
 
 /* Footer */
 #footer {
