@@ -49,6 +49,13 @@
     font-size: 40px;
 }
 
+#carousel .overlay .container .btn-gotowork {
+    font-family: "Comfortaa";
+    background: #f11318;
+    color: #fff;
+}
+
+
 /* Footer */
 #footer {
     background-color: var(--first-color);
