@@ -55,6 +55,19 @@
     color: #fff;
 }
 
+/* About Section */
+
+#about .container-fluid .column-about1 {
+    background: #000;
+    color: #fff;
+}
+
+#about .container-fluid .column-about2 {
+    background: url("./assets/images/art-about1.jpg") no-repeat;
+    background-size: cover;
+    height: 300px;
+}
+
 
 /* Footer */
 #footer {

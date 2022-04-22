@@ -27,7 +27,7 @@
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#work">Work</a>
@@ -36,7 +36,6 @@
         </div>
       </div>
     </nav>
-
     <!--Content-->
     <main id="main">
       <div id="carousel" class="carousel slide" data-bs-ride="carousel">
@@ -71,6 +70,7 @@
         </button>
       </div>
     </main>
+    <!--Section Work-->
     <section id="work" class="mt-4 pt-4 pb-4">
       <div class="container">
         <div class="row text-center justify-content-center">
@@ -79,8 +79,12 @@
               <img src="./assets/images/work-1.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h6 class="card-title">Pokedex Login React</h6>
+                <div class="badges">
+                  <span class="badge rounded-pill bg-warning">Javascript</span>
+                  <span class="badge rounded-pill bg-info">React</span>
+                </div>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="https://am2-pokedexlogin.netlify.app/" target="_blank" class="btn btn-primary">View Details</a>
+                <a href="https://am2-pokedexlogin.netlify.app/" target="_blank" class="btn btn-danger">View Details</a>
               </div>
             </div>
           </div>
@@ -89,8 +93,11 @@
               <img src="./assets/images/work-2.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h6 class="card-title">Plur-E</h6>
+                <div class="badges">
+                  <span class="badge rounded-pill bg-primary">Wordpress</span>
+                </div>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="https://plur-e.com/" target="_blank" class="btn btn-primary">View Details</a>
+                <a href="https://plur-e.com/" target="_blank" class="btn btn-danger">View Details</a>
               </div>
             </div>
           </div>
@@ -99,16 +106,31 @@
               <img src="./assets/images/work-3.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h6 class="card-title">Django Trello Clone Back-End</h6>
+                <div class="badges">
+                  <span class="badge rounded-pill bg-success">Django</span>
+                </div>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="https://github.com/rrxrskadosh/Django-TrelloClone" target="_blank" class="btn btn-primary">View Details</a>
+                <a href="https://github.com/rrxrskadosh/Django-TrelloClone" target="_blank" class="btn btn-danger">View Details</a>
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
-    
-    
+    <!--Section About-->
+    <section id="about" class="mt-4 pt-4">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-6 col-12 column-about1">
+            <h4 class="text-center mt-4 pe-4">Hello!
+              My name is Roger, I'm Developer Fullstack.</h4>
+          </div>
+          <div class="col-lg-6 col-12 column-about2">
+            <br />
+          </div>
+        </div>
+      </div>
+    </section>
     <!--Footer-->
     <footer id="footer" class="pt-4 pb-4">
       <div class="container">
